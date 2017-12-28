@@ -25,7 +25,9 @@ nextcloudFileDir="/var/www/nextcloud"
 # If your data directory is located under Nextcloud's file directory (somewhere in the web root), the data directory should not be a separate part of the backup
 nextcloudDataDir="/var/nextcloud_data"
 # TODO: The service name of the web server. Used to start/stop web server (e.g. 'service <webserverServiceName> start')
-webserverServiceName="nginx"
+webserverServiceName="apache2"
+# TODO: Your Nextcloud database host
+nextcloudDbHost="localhost"
 # TODO: Your Nextcloud database name
 nextcloudDatabase="nextcloud_db"
 # TODO: Your Nextcloud database user
@@ -101,7 +103,7 @@ echo
 # Backup DB
 #
 echo "Backup Nextcloud database..."
-mysqldump --single-transaction -h localhost -u "${dbUser}" -p"${dbPassword}" "${nextcloudDatabase}" > "${backupdir}/${fileNameBackupDb}"
+mysqldump --single-transaction -h "${nextcloudDbHost}" -u "${dbUser}" -p"${dbPassword}" "${nextcloudDatabase}" > "${backupdir}/${fileNameBackupDb}"
 echo "Done"
 echo
 

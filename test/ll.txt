@@ -1,0 +1,24 @@
+total 24K
+drwxr-xr-x 2 root root 4.0K Nov 21 14:54 ./
+drwxr-xr-x 4 root root 4.0K Nov 21 14:53 ../
+-rw-r--r-- 1 root root    0 Nov 21 14:55 ll.txt
+-rw-r--r-- 1 root root  161 Nov 15 19:08 test.zst
+-rw-r--r-- 1 root root    6 Nov 15 18:36 test1.txt
+-rw-r--r-- 1 root root    6 Nov 15 18:36 test2.txt
+-rw-r--r-- 1 root root  135 Nov 15 21:15 time.txt
+total 28K
+drwxr-xr-x 2 root root 4.0K Nov 21 14:54 ./
+drwxr-xr-x 4 root root 4.0K Nov 21 14:57 ../
+-rw-r--r-- 1 root root  349 Nov 21 14:55 ll.txt
+-rw-r--r-- 1 root root  161 Nov 15 19:08 test.zst
+-rw-r--r-- 1 root root    6 Nov 15 18:36 test1.txt
+-rw-r--r-- 1 root root    6 Nov 15 18:36 test2.txt
+-rw-r--r-- 1 root root  135 Nov 15 21:15 time.txt
+total 28K
+drwxr-xr-x 2 root root 4.0K Nov 21 14:54 ./
+drwxr-xr-x 4 root root 4.0K Nov 21 14:57 ../
+-rw-r--r-- 1 root root  698 Nov 21 14:58 ll.txt
+-rw-r--r-- 1 root root  161 Nov 15 19:08 test.zst
+-rw-r--r-- 1 root root    6 Nov 15 18:36 test1.txt
+-rw-r--r-- 1 root root    6 Nov 15 18:36 test2.txt
+-rw-r--r-- 1 root root  135 Nov 15 21:15 time.txt
